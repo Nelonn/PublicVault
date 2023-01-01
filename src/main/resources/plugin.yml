@@ -1,0 +1,17 @@
+name: '${name}'
+version: '${version}'
+main: me.nelonn.publicvault.PublicVault
+api-version: 1.17
+author: Nelonn
+
+commands:
+  publicvault:
+    usage: /<command>
+    aliases: [ pv ]
+    description: Open public vault
+    permission: publicvault
+
+permissions:
+  publicvault:
+    default: true
+    description: Permission to open public vault
